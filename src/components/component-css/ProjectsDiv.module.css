@@ -1,0 +1,68 @@
+
+.container{
+  margin: 80px 0 ;
+}
+.project{
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+.project .aboutProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project .aboutProject p {
+  width: 80%;
+  min-width: 280px;
+  text-align: left;
+  margin: 3px;
+}
+.project .liveLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.project .liveLink iframe{
+  height: 300px;
+  width: 300px;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width:700px){
+  .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    padding: 0 0 10px 0;
+    border-bottom:3px dashed grey ;
+  }
+  .container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .project .liveLink iframe{
+    width: 100%;
+    min-width: 280px;
+    height: 300px;
+    border: 3px solid grey;
+  }
+  .container p{
+    width: 200%;
+    /* background: green; */
+    text-align: center;
+    margin: 0;
+  }
+}

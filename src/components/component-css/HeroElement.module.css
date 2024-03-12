@@ -1,0 +1,29 @@
+.heroElement{
+  width: 70%;
+  min-width: 280px;
+  margin: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+.heroElement .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  padding: 0 30px;
+}
+.heroElement .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroElement .right img{
+  margin: 20px 0 0 0;
+  height: 300px;
+}
+
+@media screen and (max-width:700px) {
+  .heroElement{
+    flex-direction: column-reverse;
+  }
+}

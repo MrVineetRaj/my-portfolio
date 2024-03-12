@@ -1,0 +1,18 @@
+.mainContainer{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 0;
+  position: relative;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContainer.dark{
+  background: #000;
+  color: white;
+}
+.mainContainer.light{
+  color: #000;
+  background: white;
+}
