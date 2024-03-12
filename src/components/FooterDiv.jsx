@@ -10,7 +10,7 @@ const FooterDiv = () => {
               <li>+91 7835886624</li>
               <li>vineetraj26@gmail.com</li>
               <li><a href="#" target='_blank'>Github</a></li>
-              <li><a href="#" target='_blank'>LunkedIn</a></li>
+              <li><a href="#" target='_blank'>LinkedIn</a></li>
               <li> <a href="#" target='_blank'>LeetCode</a></li>
             </nav>
 

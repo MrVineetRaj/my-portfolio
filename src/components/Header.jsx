@@ -28,7 +28,6 @@ const Header = () => {
         <nav className={`${Style.navBar} ${Style[displayNav]} ${Style[mode]}`}>
           <li>Projects</li>
           <li>Skills</li>
-          <li>About</li>
           <li>Contact Me</li>
         </nav>
       </div>
