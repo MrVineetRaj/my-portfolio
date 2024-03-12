@@ -1,8 +1,8 @@
-
-.container{
-  margin: 80px 0 ;
+.container {
+  margin: 80px 0;
 }
-.project{
+
+.project {
   display: flex;
   justify-content: space-evenly;
   height: auto;
@@ -14,28 +14,41 @@
   justify-content: center;
   align-items: center;
 }
+
 .project .aboutProject p {
   width: 80%;
   min-width: 280px;
   text-align: left;
   margin: 3px;
 }
-.project .liveLink{
+
+.project .liveLink {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
-.project .liveLink iframe{
+
+.project .liveLink iframe {
   height: 300px;
   width: 300px;
   border: 3px solid grey;
   border-radius: 10px;
 }
 
+.project .liveLink div {
+  height: 300px;
+  width: 300px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media screen and (max-width:700px){
-  .project{
+
+@media screen and (max-width:700px) {
+  .project {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,9 +56,10 @@
     height: auto;
     overflow: hidden;
     padding: 0 0 10px 0;
-    border-bottom:3px dashed grey ;
+    border-bottom: 3px dashed grey;
   }
-  .container{
+
+  .container {
     /* background: red; */
     display: flex;
     flex-direction: column;
@@ -53,13 +67,25 @@
     align-items: center;
     text-align: center;
   }
-  .project .liveLink iframe{
+
+  .project .liveLink iframe {
     width: 100%;
     min-width: 280px;
     height: 300px;
     border: 3px solid grey;
   }
-  .container p{
+
+  .project .liveLink div {
+    width: 100%;
+    min-width: 280px;
+    height: 300px;
+    border: 3px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container p {
     width: 200%;
     /* background: green; */
     text-align: center;

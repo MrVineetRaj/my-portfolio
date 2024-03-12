@@ -25,7 +25,7 @@ const ProjectsDiv = () => {
         <h2>My Portfolio React App</h2>
         <div className={`${Style.project}`}>
           <div className={`${Style.liveLink}`}>
-            <iframe src="https://bitecounter.netlify.com" frameborder="0"></iframe>
+            <iframe src="https://portfolio-of-vineet.netlify.app/" frameborder="0"></iframe>
           </div>
           <div className={`${Style.aboutProject}`}>
               <p>1. Used Reactjs</p>
@@ -51,7 +51,7 @@ const ProjectsDiv = () => {
                 4. Learning  : How to create Rest APIs , How to manage system for user Authentication using JWT</p>
           </div>
           <div className={`${Style.liveLink}`}>
-          <iframe src="https://github.com/MrVineetRaj/Backend-development"></iframe>
+            <div><h1><a href="https://github.com/MrVineetRaj/Backend-development/tree/main/task-management-api">Github</a></h1></div>
           </div>
         </div>
       </div>
